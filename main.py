@@ -5,8 +5,9 @@
 # Created by Hà Tường Nguyên on 03/04/2023
 #
 
-from sympy import *
-from constant import *
+from sympy import diff, symbols, sin
+from constant import power_series
+from MyMathFunc import my_factorial as factorial
 
 def taylor_coefficient(function, x0, n):
     coefficients = []
